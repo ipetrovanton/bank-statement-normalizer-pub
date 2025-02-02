@@ -30,7 +30,7 @@ async def health_check() -> Response:
         content=NormalizeResponse.success(
             message="Service is healthy",
             data={"status": "UP"}
-        ).model_dump(),
+        ).model_dump_json(),
         media_type="application/json",
     )
 

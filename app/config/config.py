@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     # Basic settings
     ENVIRONMENT: str = "development"
     DEBUG: bool = False
-    PORT: int = 5123
+    PORT: int = 8000
     TITLE: str = "Bank Statement Normalizer"
     
     # File settings
