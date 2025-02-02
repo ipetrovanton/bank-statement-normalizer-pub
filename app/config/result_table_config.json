@@ -1,0 +1,152 @@
+[
+  {
+    "title": "",
+    "col_span": 4,
+    "row_span": 1,
+    "sub_headers": [
+      {
+        "title": "Ссылка на файл",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "file_link"
+      },
+      {
+        "title": "Номер счета должника",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "account_number_debtor"
+      },
+      {
+        "title": "Код валюты",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "debtor_name"
+      },
+      {
+        "title": "Должник",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "currency_code"
+      },
+      {
+        "title": "Банк предоставивший выписку",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "bank_name"
+      }
+    ]
+  },
+  {
+    "title": "Реквизиты документа, на основании которого была совершенна операция по счету",
+    "col_span": 3,
+    "row_span": 1,
+    "sub_headers": [
+      {
+        "title": "вид (шифр) или ВО",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "document_type_code"
+      },
+      {
+        "title": "номер или номер документа",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "document_number"
+      },
+      {
+        "title": "Дата совершения операции (dd.mm.yyyy) или дата проводки",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "document_operation_date"
+      }
+    ]
+  },
+  {
+    "title": "Реквизиты плательщика/получателя денежных средств",
+    "col_span": 4,
+    "row_span": 1,
+    "sub_headers": [
+      {
+        "title": "наименование/ФИО",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "payer_or_recipient_name"
+      },
+      {
+        "title": "ИНН/КИО",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "payer_or_recipient_inn"
+      },
+      {
+        "title": "КПП",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "payer_or_recipient_kpp"
+      },
+      {
+        "title": "номер счета",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "account_number"
+      }
+    ]
+  },
+  {
+    "title": "Сумма операции по счету",
+    "col_span": 2,
+    "row_span": 1,
+    "sub_headers": [
+      {
+        "title": "По дебету",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "debit_amount"
+      },
+      {
+        "title": "По кредиту",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "credit_amount"
+      }
+    ]
+  },
+  {
+    "title": "",
+    "col_span": 1,
+    "row_span": 1,
+    "sub_headers": [
+      {
+          "title": "Назначение платежа",
+          "col_span": 1,
+          "row_span": 2,
+          "data_variable": "payment_purpose"
+      }
+    ]
+  },
+  {
+    "title": "Реквизиты банка плательщика/получателя денежных средств",
+    "col_span": 3,
+    "row_span": 1,
+    "sub_headers": [
+      {
+        "title": "номер корреспондентского счета",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "correspondent_account_number"
+      },
+      {
+        "title": "наименование",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "payer_or_recipient_bank"
+      },
+      {
+        "title": "БИК",
+        "col_span": 1,
+        "row_span": 2,
+        "data_variable": "bank_bik"
+      }
+    ]
+  }
+]

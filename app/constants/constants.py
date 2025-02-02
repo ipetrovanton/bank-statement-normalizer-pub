@@ -1,0 +1,22 @@
+account_number = "выписка по счету"
+currency_code = "код валюты"
+# Константы для обозначения стандартных полей в документах
+SEQ_NUMBER = 'No'
+DOCUMENT_OPERATION_DATE = 'document_operation_date'
+DOCUMENT_TYPE_CODE = 'document_type_code'
+DOCUMENT_NUMBER = 'document_number'
+DOCUMENT_DATE = 'document_date'
+CORESPONDENT_ACCOUNT_NUMBER = 'correspondent_account_number'
+PAYER_OR_RECIPIENT_BANK = 'payer_or_recipient_bank'
+BANK_BIK = 'bank_bik'
+PAYER_OR_RECIPIENT_NAME = 'payer_or_recipient_name'
+PAYER_OR_RECIPIENT_INN = 'payer_or_recipient_inn'
+PAYER_OR_RECIPIENT_KPP = 'payer_or_recipient_kpp'
+ACCOUNT_NUMBER = 'account_number'
+DEBIT_AMOUNT = 'debit_amount'
+CREDIT_AMOUNT = 'credit_amount'
+PAYMENT_PURPOSE = 'payment_purpose'
+DEBTOR_ACCOUNT_NUMBER = 'debtor_account_number'
+DEBTOR_BANK_NAME = 'debtor_bank_name'
+DEBTOR_NAME = 'debtor_name'
+CURRENCY_CODE = 'currency_code'

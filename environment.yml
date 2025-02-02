@@ -1,0 +1,47 @@
+name: app_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python
+  - python=3.11
+
+  # Web Framework
+  - fastapi
+  - uvicorn
+  - starlette
+  - python-multipart
+  - httpx
+
+  # Data Processing
+  - pandas
+  - numpy
+  - openpyxl
+  - xlrd
+
+  # Document Processing
+  - python-docx
+  - lxml
+
+  # Validation
+  - pydantic
+  - email-validator
+  - pydantic-settings
+
+  # Utilities
+  - python-dateutil
+
+  # System
+  - pip
+
+  # Pip dependencies
+  - pip:
+    - python-jose
+    - passlib
+    - python-dotenv
+
+# Переменные окружения
+variables:
+  PYTHONUNBUFFERED: 1
+
+prefix: /home/thinkpad/anaconda3/envs/app_env
